@@ -1,4 +1,4 @@
-# Working Class Analysis Dashboard (Excel)
+# Customer Purchase Analysis Dashboard (Excel)
 
 ## Overview
 This project analyzes customer demographics and purchasing behavior to identify factors that influence bicycle purchases. Using Microsoft Excel, the dataset was cleaned, transformed, analyzed, and visualized through Pivot Tables and an interactive dashboard.
