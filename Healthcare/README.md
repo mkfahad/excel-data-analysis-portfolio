@@ -1,57 +1,110 @@
-Healthcare Analytics Dashboard (Excel)
-Overview
+Healthcare Data Analysis Dashboard (Excel)
+#Project Overview
 
-This project analyzes healthcare data using Microsoft Excel. The dataset was cleaned, transformed, and visualized to identify trends in healthcare charges, patient health metrics, hospital performance, and lifestyle-related risk factors.
+This project was completed as part of an Excel End Module Assignment. The objective was to clean, transform, analyze, and visualize healthcare data using Microsoft Excel.
+The project demonstrates data cleaning techniques, Pivot Table analysis, dashboard creation, KPI tracking, and business insight generation from healthcare records.
 
-Tools Used:-
-Microsoft Excel 2016
+#Objectives
+*Clean and prepare raw healthcare data.
+*Handle missing and inconsistent values.
+*Create calculated fields for analysis.
+*Build Pivot Tables and Pivot Charts.
+*Develop an interactive dashboard using slicers.
+*Generate insights from healthcare-related metrics.
+
+#Data Cleaning Performed
+
+The following data cleaning tasks were completed:
+*Replaced missing month values with September (Sep).
+*Filled missing year values using the average year.
+*Replaced missing smoker values with the most frequent category.
+*Filled missing Hospital Tier and City Tier values using mode.
+*Replaced missing State IDs with "Unknown".
+*Standardized categorical values (Yes/No fields).
+*Converted NumberOfMajorSurgeries into numeric format.
+*Split and organized name-related fields where required.
+*Checked and corrected inconsistencies in categorical data.
+
+#Data Transformation
+Additional fields were created for analysis:
+
+*Weight Status
+*Underweight
+*Normal Weight
+*Overweight
+*Obesity
+*Diabetes Status
+
+Based on HbA1C values:
+
+Normal
+Prediabetes
+Diabetes
+#Age
+Calculated using Date of Birth and Data Collection Date.
+
+#Dashboard KPIs
+
+The dashboard includes:
+
+Total Patients
+Average Age
+Average Healthcare Charges
+Average BMI
+Average HbA1C
+Total Major Surgeries
+
+#Analysis Performed
+
+Pie / Doughnut Chart Analysis
+Distribution of cancer history among smokers and non-smokers.
+Comparison of major surgeries and average HbA1C based on transplant history.
+Column / Bar Chart Analysis
+Healthcare charges by weight status.
+Healthcare charges by diabetes status.
+Average charges across hospital tiers and states.
+Line / Scatter Analysis
+Relationship between Age and BMI.
+Relationship between Age and HbA1C.
+Relationship between Age and Healthcare Charges.
+
+#Key Insights
+
+Obese patients incur the highest average healthcare charges.
+Healthcare costs increase with diabetes severity.
+Older patients tend to have higher healthcare expenses.
+HbA1C levels generally increase with age.
+BMI remains relatively stable across age groups.
+Higher-tier hospitals typically report higher average charges.
+
+#Tools Used
+Microsoft Excel
 Pivot Tables
 Pivot Charts
 Slicers
 Conditional Formatting
-Excel Formulas
+Dashboard Design
+Data Cleaning & Transformation
 
-Key Features:-
-Data cleaning and preprocessing
-Missing value treatment
-BMI and Diabetes categorization
-Age calculation and age-group analysis
-Interactive dashboard with slicers
-KPI cards and visualizations
+#Workbook Structure
 
-Analysis Performed:-
-Healthcare Charges Analysis
-Average charges by hospital tier and state
-Charges by weight status and diabetes status
-BMI trends across age groups
-HbA1C trends across age groups
-Cancer history among smokers and non-smokers
-Comparison of healthcare charges across hospital tiers
-State-wise healthcare cost analysis
+Customer Names
+Medical Examinations
+Hospitalisation Details
+Health Care (Cleaned Dataset)
+Pivot Table
+Health Care Analysis Dashboard
 
-Key Insights:-
-Tier 1 hospitals showed the highest average healthcare charges.
-Healthcare costs varied significantly across states.
-Higher BMI categories generally had higher healthcare charges.
-Older age groups showed higher average HbA1C levels.
-Smoking status influenced cancer history distribution.
+#Dashboard Preview
 
-Files Included:-
-Healthcare_Dashboard.xlsx
-Dashboard_Screenshot.png
-README.md
-
-Skills Demonstrated:-
-Data Cleaning
-Data Transformation
-Data Analysis
-Pivot Tables
-Dashboard Development
-Healthcare Analytics
+<img width="947" height="518" alt="image" src="https://github.com/user-attachments/assets/fd05d31d-2446-4004-9dc1-028e81001897" />
 
 
-Author
+![Healthcare Dashboard](dashboard.png
+
+#Author
+
 Mohamed Fahad Manamkulam
-
+Aspiring Data Analyst | Excel | Power BI | SQL | Python
+Linkedin: https://www.linkedin.com/in/mfahadmk/
 GitHub: https://github.com/mkfahad
-LinkedIn: https://www.linkedin.com/in/mfahadmk/
