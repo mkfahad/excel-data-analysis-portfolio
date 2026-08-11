@@ -1,10 +1,12 @@
 Healthcare Data Analysis Dashboard (Excel)
+
 #Project Overview
 
 This project was completed as part of an Excel End Module Assignment. The objective was to clean, transform, analyze, and visualize healthcare data using Microsoft Excel.
 The project demonstrates data cleaning techniques, Pivot Table analysis, dashboard creation, KPI tracking, and business insight generation from healthcare records.
 
 #Objectives
+
 *Clean and prepare raw healthcare data.
 *Handle missing and inconsistent values.
 *Create calculated fields for analysis.
@@ -26,6 +28,7 @@ The following data cleaning tasks were completed:
 *Checked and corrected inconsistencies in categorical data.
 
 #Data Transformation
+
 Additional fields were created for analysis:
 
 *Weight Status
